@@ -1,5 +1,5 @@
 # ft_ssl
-A partial re-implementation of OpenSSL implemented in C.
+A partial re-implementation of OpenSSL in C.
 
 ## Description
 The goal of this project is to understand the behaviour of the OpenSSL library and gain an understanding of the fundamentals of cryptography by reimplementing some of its functionality from the ground up.
