@@ -6,6 +6,8 @@ The goal of this project is to understand the behaviour of the OpenSSL library a
 
 The implemented functionality closely mocks the behaviour found in `man openssl(1)`.
 
+For a more thorough description look at `ft_ssl_md5.en.pdf`.
+
 ## Usage
 1. clone repository
 2. `make` executable
