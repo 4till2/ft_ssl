@@ -4,7 +4,7 @@ A partial re-implementation of OpenSSL implemented in C
 ## Description
 The goal of this project is to understand the behaviour of the OpenSSL library and gain an understanding of the fundamentals of cryptography by reimplementing some of its functionality from the ground up.
 
-The behaviour closely mocks the behaviour expected in `man openssl(1)`.
+The implemented functionality closely mocks the behaviour found in `man openssl(1)`.
 
 ## Usage
 1. clone repository
