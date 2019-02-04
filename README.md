@@ -1,20 +1,12 @@
 # ft_ssl
-A partial re-implementation of OpenSSL implemented in C
+A partial re-implementation of OpenSSL implemented in C.
 
 ## Description
 The goal of this project is to understand the behaviour of the OpenSSL library and gain an understanding of the fundamentals of cryptography by reimplementing some of its functionality from the ground up.
 
 The implemented functionality closely mocks the behaviour found in `man openssl(1)`.
 
-For a more thorough description look at `ft_ssl_md5.en.pdf`.
-
-## Usage
-1. clone repository
-2. `make` executable
-3. run `ft_ssl command [command opts] [command args]`
-
-### Dependencies
-`gcc` is required for the build
+For a more thorough description and list of requirements (such as allowed functions) look at `ft_ssl_md5.en.pdf`.
 
 ### Functionality
 `md5`
@@ -32,3 +24,14 @@ The following flags are supported:
 `-r` - reverse output format
 
 `-s` - find the hash for the string to be given after this flag or in the following argument
+
+### Usage
+```
+$ make
+```
+
+```
+$ ./ft_ssl command [command opts] [command args]
+```
+### Dependencies
+`gcc` is required for the build
